@@ -2,13 +2,14 @@ import React from 'react';
 import aboutMeImage from '../assets/images/aboutmephoto.JPG'
 const imageStyle={
     width: "18em",
-    borderRadius: "50%"
+    borderRadius: "50%",
+    alignContent: "center"
 }
 
 function AboutMe() {
     return (
-        <div class="row justify-content-center about" id="about-info">
-            <h3>About Me</h3>
+        <div id="about-info">
+            <h3 style={{textAlign: "center"}}>About Me</h3>
             <img style={imageStyle} src={aboutMeImage}></img>
             <p> Hello there! My name is Catherine, but everyone calls me 'Cat'. This is a showcase of my front end
                 development, thus far in my coding journey. It was baby steps that brought me into the coding world. I
