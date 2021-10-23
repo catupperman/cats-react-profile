@@ -11,3 +11,5 @@ function BevViber(){
     </div>  
     )
 }
+
+export default BevViberImage();
