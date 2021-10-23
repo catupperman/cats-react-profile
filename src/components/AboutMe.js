@@ -11,7 +11,7 @@ function AboutMe() {
         <div id="about-info">
             <h3 style={{textAlign: "center"}}>About Me</h3>
             <img style={imageStyle} src={aboutMeImage}></img>
-            <p> Hello there! My name is Catherine, but everyone calls me 'Cat'. This is a showcase of my front end
+            <p style={{textAlign: "center"}}> Hello there! My name is Catherine, but everyone calls me 'Cat'. This is a showcase of my front end
                 development, thus far in my coding journey. It was baby steps that brought me into the coding world. I
                 had always had a flair for Art and Science. I love to paint, especially trees, and have recieved a BA in
                 Health Care Administration. So, coding?</p>
