@@ -2,10 +2,9 @@ import logo from './logo.svg';
 import React from 'react';
 import './App.css';
 import Header from './components/pages/Header';
-import AboutMe from './components/pages/AboutMe';
-import Projects from './components/pages/Projects';
 import PortfolioContainer from './components/PortfolioContainer';
 import background from './components/assets/images/background.jpg';
+import Footer from './components/pages/Footer';
 
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
     <div style={{ backgroundImage: `url(${background})` }}>
       <Header />
       <PortfolioContainer />
+      <Footer />
       </div>
     </>
   );
