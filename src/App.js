@@ -1,9 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import SearchForeGolf from './components/SearchForeGolfProject';
-import BevViber from './components/BevViberProject';
+import Header from './components/pages/Header';
+import AboutMe from './components/pages/AboutMe';
+import Projects from './components/pages/Projects';
 
 
 function App() {
@@ -11,6 +10,7 @@ function App() {
     <>
       <Header />
       <AboutMe />
+      <Projects />
     </>
   );
 }
