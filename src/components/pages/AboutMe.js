@@ -3,7 +3,7 @@ import aboutMeImage from '../assets/images/aboutmephoto.JPG'
 const imageStyle={
     width: "18em",
     borderRadius: "50%",
-    align: "center"
+    alignItems: "center"
 }
 
 function AboutMe() {
