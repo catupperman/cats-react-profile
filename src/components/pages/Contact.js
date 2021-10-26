@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import {validateEmail} from '../utils/helpers';
 
 function Contact() {
     const [email, setEmail] = useState('');
-    const [setName, setName] = useState('');
+    const [userName, setUserName] = useState('');
     const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
@@ -13,8 +14,8 @@ function Contact() {
 
         if (inputType === 'email') {
             setEmail(inputValue);
-        } else if (inputType === 'setName') {
-            setName(inputValue);
+        } else if (inputType === 'userName') {
+            setUserName(inputValue);
         } else {
             setMessage(inputValue);
         }
@@ -27,14 +28,14 @@ function Contact() {
             setErrorMessage('Not a vaild Email');
             return;
         }
-        alert(`Hello ${setName}`);
-        setName('');
+        alert(`Hello ${userName}`);
+        setUserName('');
         setEmail('');
         setMessage('');
     };
     return(
         <div>
-      <p>Hello {setName}</p>
+      <p>Hello {userName}</p>
       <form className="form">
         <input
           value={email}
@@ -44,11 +45,11 @@ function Contact() {
           placeholder="email"
         />
         <input
-          value={setName}
-          name="setName"
+          value={userName}
+          name="userName"
           onChange={handleInputChange}
           type="text"
-          placeholder="setname"
+          placeholder="name"
         />
         <input
           value={message}
