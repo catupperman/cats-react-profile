@@ -1,0 +1,13 @@
+.para-one {
+    text-align: center;
+}
+
+@media screen and (max-width: 586px) {
+    .para-one {
+      flex-direction: column;
+      text-align: center;
+    }
+    ul {
+      justify-content: center;
+    }
+  }
