@@ -1,9 +1,13 @@
-.para-one {
+.para-one, .para-two {
     text-align: center;
+    border-radius: 20%;
+    padding: 5rem 0rem;
 }
 
+
+
 @media screen and (max-width: 586px) {
-    .para-one {
+    .para-one, .para-two, img {
       flex-direction: column;
       text-align: center;
     }
