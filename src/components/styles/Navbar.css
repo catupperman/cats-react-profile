@@ -1,0 +1,7 @@
+.nav, .nav-tabs, button, ul, li {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+
