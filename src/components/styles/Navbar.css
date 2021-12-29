@@ -1,7 +1,28 @@
-.nav, .nav-tabs, button, ul, li {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+.nav,
+.nav-tabs,
+button,
+ul,
+li {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
 }
 
+button {
+    color: black !important;
+    border-color: whitesmoke !important;
+    font-weight: 400;
+    background-color: transparent;
+    border-radius: 70px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
 
+button:hover {
+    color: white !important;
+    text-shadow: white 1px 0 10px;
+    border-color: white !important;
+    box-shadow: 0 0 5px white !important;
+    box-shadow: inner 0 0 5px white !important;
+}

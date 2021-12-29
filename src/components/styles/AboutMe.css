@@ -1,9 +1,11 @@
 .para-one, .para-two {
     text-align: center;
-    border-radius: 20%;
-    padding: 5rem 0rem;
+    /* border-radius: 20%; */
+    padding: 2rem 0rem;
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
 }
-
 
 
 @media screen and (max-width: 586px) {

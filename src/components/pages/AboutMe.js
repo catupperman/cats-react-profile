@@ -1,11 +1,18 @@
 import React from 'react';
 import aboutMeImage from '../assets/images/aboutmephoto.JPG'
+import '../styles/AboutMe.css'
+
 const imageStyle={
     width: "18em",
     borderRadius: "50%",
     verticalAlign: "middle",
     alignItems: "center",
-    height: "auto"
+    height: "auto",
+    padding: "10px",
+    float: "left",
+    display: "block",
+    marginRight: "10px",
+    clear: "both"
 }
 
 function AboutMe() {

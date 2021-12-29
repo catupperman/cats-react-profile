@@ -1,0 +1,6 @@
+a, h3, h5, p{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
