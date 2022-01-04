@@ -8,20 +8,19 @@ import '../styles/Footer.css'
 const imageStyle={
     width: "5em",
     borderRadius: "50%",
-    alignItems: "center",
-    marginRight: "0px"
+    margin: "2px", 
+    maxWidth: "60px",
+    maxHeight: "50px"
 }
 
 function Footer() {
     return (
-        <div>
+        <footer>
             <a href="http://linkedin.com/in/catherine-upperman-370a97a8" target="_blank"> <img style={imageStyle} src={LinkedInImage}/></a>
             <a href="https://github.com/catupperman" target="_blank"> <img style={imageStyle} src={GitHubImage}/> </a>
             <a href={CatsResume} target="_blank"> <img style={imageStyle} src={ResumeImage}/> </a>
-            <h3 style={{marginLeft: "5px"}}> Contact Infomation </h3>
-            <h5 style={{marginLeft: "0px"}}> Email</h5>
-            <p style={{marginLeft: "0px"}}>catupperman@gmail.com</p>
-        </div>
+            <h3 style={{marginLeft: "5px"}}> Contact Infomation: Email: catupperman@gmail.com</h3>
+        </footer>
     )
 }
 

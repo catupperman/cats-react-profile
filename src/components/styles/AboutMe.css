@@ -12,6 +12,7 @@
     .para-one, .para-two, img {
       flex-direction: column;
       text-align: center;
+      margin: 0px;
     }
     ul {
       justify-content: center;

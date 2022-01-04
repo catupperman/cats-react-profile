@@ -6,8 +6,8 @@ const headerStyle = {
 }
 function Header() {
     return (
-      <header style={{margin: "50px"}} className="header">
-        <h1 style = {headerStyle}>"Pseudo Cat's Coding"</h1>
+      <header className="header">
+        <h1 style = {headerStyle}>Cat's Coding</h1>
       </header>
     );
   }

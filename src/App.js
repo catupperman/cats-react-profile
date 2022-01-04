@@ -10,7 +10,7 @@ import Footer from './components/pages/Footer';
 function App() {
   return (
     <>
-    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: `center` }}>
+    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: `center`}}>
       <Header />
       <PortfolioContainer />
       <Footer />

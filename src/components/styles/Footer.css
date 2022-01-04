@@ -1,6 +1,13 @@
-a, h3, h5, p{
+h3, h5, p{
     display: flex;
+    margin-right: 0em;
     justify-content: space-around;
     list-style-type: none;
     padding: 0;
 }
+
+footer{
+    background-position: top;
+    background-size: cover
+}
+
