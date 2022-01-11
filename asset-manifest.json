@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/cats-react-profile/static/css/main.a617e044.chunk.css",
-    "main.js": "/cats-react-profile/static/js/main.dcade7ac.chunk.js",
-    "main.js.map": "/cats-react-profile/static/js/main.dcade7ac.chunk.js.map",
-    "runtime-main.js": "/cats-react-profile/static/js/runtime-main.2a557a62.js",
-    "runtime-main.js.map": "/cats-react-profile/static/js/runtime-main.2a557a62.js.map",
+    "main.css": "/cats-react-profile/static/css/main.cc554b0d.chunk.css",
+    "main.js": "/cats-react-profile/static/js/main.41f05ca4.chunk.js",
+    "main.js.map": "/cats-react-profile/static/js/main.41f05ca4.chunk.js.map",
+    "runtime-main.js": "/cats-react-profile/static/js/runtime-main.6fff3f6b.js",
+    "runtime-main.js.map": "/cats-react-profile/static/js/runtime-main.6fff3f6b.js.map",
     "static/js/2.aad16a59.chunk.js": "/cats-react-profile/static/js/2.aad16a59.chunk.js",
     "static/js/2.aad16a59.chunk.js.map": "/cats-react-profile/static/js/2.aad16a59.chunk.js.map",
-    "static/js/3.91d100f4.chunk.js": "/cats-react-profile/static/js/3.91d100f4.chunk.js",
-    "static/js/3.91d100f4.chunk.js.map": "/cats-react-profile/static/js/3.91d100f4.chunk.js.map",
+    "static/js/3.8e03cad0.chunk.js": "/cats-react-profile/static/js/3.8e03cad0.chunk.js",
+    "static/js/3.8e03cad0.chunk.js.map": "/cats-react-profile/static/js/3.8e03cad0.chunk.js.map",
     "index.html": "/cats-react-profile/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/cats-react-profile/static/css/main.a617e044.chunk.css.map",
+    "static/css/main.cc554b0d.chunk.css.map": "/cats-react-profile/static/css/main.cc554b0d.chunk.css.map",
     "static/js/2.aad16a59.chunk.js.LICENSE.txt": "/cats-react-profile/static/js/2.aad16a59.chunk.js.LICENSE.txt",
     "static/media/CatsResume.c0639199.pdf": "/cats-react-profile/static/media/CatsResume.c0639199.pdf",
-    "static/media/aboutmephoto.df0af87c.JPG": "/cats-react-profile/static/media/aboutmephoto.df0af87c.JPG",
-    "static/media/background.20390caf.jpg": "/cats-react-profile/static/media/background.20390caf.jpg",
+    "static/media/aboutmephoto.b3d860fe.JPG": "/cats-react-profile/static/media/aboutmephoto.b3d860fe.JPG",
+    "static/media/background.f9e11448.JPG": "/cats-react-profile/static/media/background.f9e11448.JPG",
     "static/media/bev-viber.885ad05f.jpeg": "/cats-react-profile/static/media/bev-viber.885ad05f.jpeg",
     "static/media/githubicon.67bacea8.jpeg": "/cats-react-profile/static/media/githubicon.67bacea8.jpeg",
     "static/media/linkedin-icon.0d35e6c0.jpeg": "/cats-react-profile/static/media/linkedin-icon.0d35e6c0.jpeg",
@@ -23,9 +23,9 @@
     "static/media/team-generator.e1fe7957.jpeg": "/cats-react-profile/static/media/team-generator.e1fe7957.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a557a62.js",
+    "static/js/runtime-main.6fff3f6b.js",
     "static/js/2.aad16a59.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.dcade7ac.chunk.js"
+    "static/css/main.cc554b0d.chunk.css",
+    "static/js/main.41f05ca4.chunk.js"
   ]
 }
