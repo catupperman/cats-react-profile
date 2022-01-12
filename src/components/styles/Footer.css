@@ -7,7 +7,11 @@ h3, h5, p{
 }
 
 footer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../assets/images/topbottom.jpg');
     background-position: top;
-    background-size: cover
+    background-size: cover;
 }
 

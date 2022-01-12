@@ -5,6 +5,7 @@ import Header from './components/pages/Header';
 import PortfolioContainer from './components/PortfolioContainer';
 import background from './components/assets/images/background.JPG';
 import Footer from './components/pages/Footer';
+import { Parallax, Background } from 'react-parallax';
 
 
 function App() {

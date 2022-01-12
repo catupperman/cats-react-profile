@@ -6,7 +6,9 @@ li {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 button {
@@ -25,4 +27,20 @@ button:hover {
     border-color: white !important;
     box-shadow: 0 0 5px white !important;
     box-shadow: inner 0 0 5px white !important;
+}
+
+
+@media screen and(max-width: 586px) {
+    .nav,
+    .nav-tabs,
+    button,
+    li,
+    button {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    ul {
+        justify-content: center;
+    }
 }
