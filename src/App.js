@@ -11,7 +11,7 @@ import { Parallax, Background } from 'react-parallax';
 function App() {
   return (
     <>
-    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: `center`}}>
+    <div style={{ backgroundImage: `url(${background})`, backgroundPosition: `center`, backgroundSize: `auto`}}>
       <Header />
       <PortfolioContainer />
       <Footer />

@@ -34,8 +34,7 @@ button:hover {
     .nav,
     .nav-tabs,
     button,
-    li,
-    button {
+    li {
         flex-direction: column;
         text-align: center;
         margin: 0;
