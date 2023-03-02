@@ -3,12 +3,16 @@ import ResumeImage from '../assets/images/resume-icon.jpg';
 import CatsResume from '../assets/images/CatsResume.pdf'
 import Footer from './Footer';
 
+
+//eventual Css file
 const imageStyle={
     width: "18em",
     borderRadius: "50%",
     alignItems: "center"
 }
 
+
+//resume of items I know sort of well, and items I know really well, needs updating from initial commits in 2021
 function Resume() {
     return (
         <div>

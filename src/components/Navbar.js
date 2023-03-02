@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/Navbar.css'
 
+//handles the changes of each page and remains constant across each page- eventual esthetic changes would be nice
+
 function NavBar({ currentPage, handlePageChange}){
     return (
         <ul className="nav nav-tabs">

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import {validateEmail} from '../utils/helpers';
 
+
+//contact form sheet, to demonstrate functionality when submitting forms
 function Contact() {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');

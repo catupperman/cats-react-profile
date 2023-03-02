@@ -5,6 +5,7 @@ import GitHubImage from '../assets/images/githubicon.jpeg';
 import CatsResume from '../assets/images/CatsResume.pdf';
 import '../styles/Footer.css'
 
+//icon image styling, move to css folder in the future
 const imageStyle={
     width: "5em",
     borderRadius: "50%",
@@ -13,6 +14,7 @@ const imageStyle={
     maxHeight: "50px"
 }
 
+//footer constant
 function Footer() {
     return (
         <footer>

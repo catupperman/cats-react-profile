@@ -2,6 +2,9 @@ import React from 'react';
 import aboutMeImage from '../assets/images/aboutmephoto.JPG'
 import '../styles/AboutMe.css'
 
+//Things to work on: cleaning up the CSS and compiling into their own folders rather than across the code -work on esthetics of the page for more user friendly appearance -make the page responsive for all devices
+
+//attempting to change the stly of the images within the page- would love to move this to a separate css folder in the future
 const imageStyle={
     width: "18em",
     borderRadius: "50%",
@@ -15,6 +18,8 @@ const imageStyle={
     clear: "both"
 }
 
+
+//function returning the About Me section when selected from the menu tab
 function AboutMe() {
     return (
         <div id="about-info">

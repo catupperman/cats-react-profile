@@ -3,14 +3,16 @@ import BevViberImage from '../assets/images/bev-viber.jpeg';
 import SearchForeGolfImage from '../assets/images/search-fore-golf.jpeg';
 import TeamGenerator from '../assets/images/team-generator.jpeg'
 
+
+//eventual css file
 const imageStyle = {
     width: "20em",
     alignContent: "center"
 }
 
 
-
-function BevViber() {
+//links to projects, with photos to demonstrate work
+function Projects() {
     return (
         <div>
             <div class="card">
@@ -40,4 +42,4 @@ function BevViber() {
     )
 }
 
-export default BevViber;
+export default Projects;
